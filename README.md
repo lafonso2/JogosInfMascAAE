@@ -1,9 +1,9 @@
 # JogosInfMascAAE
 JogosInfMascAAE is an app to help organize our games, by listing them.
 
-## :camera_flash: Screenshots 
+## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/result/img1.png" width="260"> 
+<img src="/result/img1.jpg" width="260">
 
 ## :video_camera: Video
 https://github.com/lafonso2/JogosInfMascAAE/assets/152394506/dec0335f-8e9a-4379-b45f-d076e2e00d2d
