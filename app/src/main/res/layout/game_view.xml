@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/team_A"
+        android:layout_width="80dp"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:textAlignment="center"
+        tools:text="Team A" />
+
+    <TextView
+        android:id="@+id/team_B"
+        android:layout_width="80dp"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        tools:text="Team B" />
+
+    <TextView
+        android:id="@+id/game_result_sets"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/team_B"
+        android:layout_centerHorizontal="true"
+        tools:text="Game Result Sets" />
+
+    <TextView
+        android:id="@+id/game_result_parcials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_below="@id/game_result_sets"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        tools:text="Game Result Parcials" />
+
+    <TextView
+        android:id="@+id/link_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_below="@id/game_result_parcials"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        tools:text="Link Video" />
+
+    <TextView
+        android:id="@+id/scout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_below="@id/link_video"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        tools:text="Scout" />
+
+    <ImageView
+        android:id="@+id/foto_a"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        tools:text="Foto B" />
+
+    <ImageView
+        android:id="@+id/foto_b"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        tools:text="Foto A" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/scout"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"/>
+
+</RelativeLayout>
