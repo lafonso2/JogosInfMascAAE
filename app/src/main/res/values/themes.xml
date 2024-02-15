@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.JogosInfMascAAE" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/azul1</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/glack</item>
         <item name="colorOnPrimary">@color/ivory</item>
         <!-- Secondary brand color. -->

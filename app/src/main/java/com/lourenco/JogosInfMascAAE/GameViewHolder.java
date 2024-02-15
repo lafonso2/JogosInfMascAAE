@@ -18,7 +18,7 @@ public class GameViewHolder extends RecyclerView.ViewHolder {
         teamBView = itemView.findViewById(R.id.team_B);
         gameResultSetsView = itemView.findViewById(R.id.game_result_sets);
         gameResultParcialsView = itemView.findViewById(R.id.game_result_parcials);
-        linkVideoView = itemView.findViewById(R.id.link_video);
+        linkVideoView = itemView.findViewById(R.id.linkvideo);
         scoutView = itemView.findViewById(R.id.scout);
         fotoAView = itemView.findViewById(R.id.foto_a);
         fotoBView = itemView.findViewById(R.id.foto_b);

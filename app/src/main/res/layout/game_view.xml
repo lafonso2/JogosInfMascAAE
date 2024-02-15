@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="5dp">
+    android:layout_marginTop="5dp"
+    android:background="@color/pink_100">
 
     <TextView
         android:id="@+id/team_A"
         android:layout_width="80dp"
-        android:textSize="17dp"
+        android:textSize="17sp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="10dp"
@@ -18,7 +21,7 @@
     <TextView
         android:id="@+id/team_B"
         android:layout_width="80dp"
-        android:textSize="17dp"
+        android:textSize="17sp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="10dp"
@@ -27,7 +30,7 @@
 
     <TextView
         android:id="@+id/game_result_sets"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/team_B"
@@ -38,28 +41,40 @@
         android:id="@+id/game_result_parcials"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:layout_below="@id/game_result_sets"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
         tools:text="Game Result Parcials" />
 
-    <TextView
-        android:id="@+id/link_video"
+    <Button
+        android:id="@+id/buttonLinkVideo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
+        android:layout_height="30dp"
         android:layout_below="@id/game_result_parcials"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
-        tools:text="Link Video" />
+        android:padding="1dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Button Link Video" />
+
+    <TextView
+        android:id="@+id/linkvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/buttonLinkVideo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        tools:text="Link Video"/>
 
     <TextView
         android:id="@+id/scout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:layout_below="@id/link_video"
+        android:textSize="16sp"
+        android:layout_below="@id/linkvideo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
         tools:text="Scout" />
