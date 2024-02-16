@@ -47,24 +47,12 @@
         android:layout_marginTop="2dp"
         tools:text="Game Result Parcials" />
 
-    <Button
-        android:id="@+id/buttonLinkVideo"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_below="@id/game_result_parcials"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="2dp"
-        android:padding="1dp"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        tools:text="Button Link Video" />
-
     <TextView
         android:id="@+id/linkvideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:layout_below="@id/buttonLinkVideo"
+        android:layout_below="@id/game_result_parcials"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2dp"
         tools:text="Link Video"/>
